@@ -10,7 +10,7 @@ class Connection
                 $config['connection'] . ';dbname=' . $config['name'],
                 $config['username'], 
                 $config['pass'],
-                $options['options']
+                $config['options']
             );
 
         } catch (PDOException $e) {
